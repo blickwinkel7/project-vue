@@ -10,7 +10,6 @@ router.get("/", (req, res) => {
     res.send("server")
 })
 router.post("/register", Controller.register)
-
 router.post("/login", (req, res) => {
     res.send("login page")
 })
